@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a small timeline / visual histogram to visualize the github commit history using hexagons. Ideally the histogram can be used to visualize other temporal frequency on a histogram. 
+This is a small timeline / histogram to visualize temporal frequency using hexagons. In a short demo it will be used to visualize the github commit history. 
 
 ## Usage
 
@@ -10,9 +10,9 @@ This is a small timeline / visual histogram to visualize the github commit histo
 Include a `<svg>` with `id="hexhistogram"`, and the `hexT.js` should beable to target and render the histogram. 
 
 ```      
-      <div class="container">
-        <svg id="hextimeline" height="128" width="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      </div>
+<div class="container">
+  <svg id="hexhistogram" height="128" width="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+</div>
 ```
 
 
